@@ -21,6 +21,7 @@ function App() {
         </a>
         <Xe color='red' value='màu đỏ'/>
         <Xe color='yellow' value='màu vàng'/>
+        <Xe color='orange' value='màu cam'/>
       </header>
     </div>
   );
