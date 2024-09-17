@@ -31,7 +31,12 @@ class Car extends React.Component {
 
     render() {
         console.log('render');
-        return (
+        if (1==2) return (
+            <h4 onClick={() => this.shoot2("Hello")} style={{ color: this.state.color, cursor: "pointer" }}>
+                Hi, Tôi là chiếc xe {this.state.value}!
+            </h4>
+        )
+        else return (
             <h4 onClick={(e) => this.shoot3("HAHA",e)} style={{ color: this.state.color, cursor: "pointer" }}>
                 Hi, Tôi là chiếc xe {this.state.value}!
             </h4>
